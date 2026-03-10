@@ -21,7 +21,6 @@ This project explores the Netflix content library through data cleaning, explora
 | ⭐ Total Ratings | 20 |
 | 🎭 Total Genres | 499 |
 
-### 🔍 Key Findings:
 - **Movies dominate** Netflix at 71.43% of all content
 - **Documentaries** are the most common genre
 - **United States** produces the most content by far
@@ -43,14 +42,14 @@ This project explores the Netflix content library through data cleaning, explora
 ---
 
 ## 📁 Project Structure
-
 ```
 netflix-content-analysis/
 │
-├── clean.py                  # Data cleaning script
-├── analyze.py                # EDA & chart generation
-├── netflix_clean.csv         # Cleaned dataset (7,969 titles)
-├── netflix_dashboard.pbix    # Power BI dashboard file
+├── clean.py                      # Data cleaning script
+├── analyze.py                    # EDA & chart generation
+├── requirements.txt              # Python dependencies
+├── netflix_clean.csv             # Cleaned dataset (7,969 titles)
+├── netflix-content-analysis.pbix # Power BI dashboard file
 │
 └── charts/
     ├── 1_movies_vs_tvshows.png
@@ -94,10 +93,10 @@ netflix-content-analysis/
 
 ## 📸 Dashboard Preview
 
-![Genres](charts/4_top_genres.png)
+![Movies vs TV Shows](charts/1_movies_vs_tvshows.png)
 ![Content Per Year](charts/2_content_per_year.png)
 ![Top Countries](charts/3_top_countries.png)
-![Movies vs TV Shows](charts/1_movies_vs_tvshows.png)
+![Top Genres](charts/4_top_genres.png)
 ![Ratings](charts/5_ratings.png)
 
 ---
@@ -117,7 +116,8 @@ python analyze.py
 ```
 
 ### Power BI Dashboard
-1. Open `netflix_dashboard.pbix` in Power BI Desktop
+
+1. Open `netflix-content-analysis.pbix` in Power BI Desktop
 2. If prompted, update the CSV file path to your local path
 3. Interact with charts — clicking any visual filters all others!
 
@@ -136,6 +136,7 @@ python analyze.py
 ## 👤 Author
 
 **Kavi Gamage**
+
 - GitHub: [@kavigamage-da](https://github.com/kavigamage-da)
 
 ---
