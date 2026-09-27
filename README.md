@@ -8,7 +8,17 @@
 
 This project explores the Netflix content library through data cleaning, exploratory analysis, and an interactive Power BI dashboard styled with Netflix's iconic red and black branding. It uncovers trends in content growth, genre popularity, country distribution, and content ratings.
 
----
+## 🎯 Project Objectives
+
+The project aims to:
+
+* Understand the distribution and growth of Netflix movies and TV shows.
+* Identify patterns across genres, countries, and content ratings.
+* Prepare and validate the dataset for analysis.
+* Use Python for data cleaning, exploratory analysis, and visualization.
+* Present key findings through an interactive Power BI dashboard.
+* Demonstrate an end-to-end data analytics workflow from raw data to business insights.
+
 
 ## 🎯 Key Business Insights
 
